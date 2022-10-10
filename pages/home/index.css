@@ -1,1 +1,66 @@
-/* Desenvolva sua estilização aqui ... */
+
+
+.section-menu{
+    margin-top: 60px;
+}
+
+.menu-nav{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+h1{
+    font-size: var(--font-1);
+}
+
+h4{
+    font-size: var(--font-4);
+}
+
+.musical-gender-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.define-price-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.definePrice-maxPrice{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.max-price{
+    font-size: var(--font-3);
+    font-weight: lighter;
+}
+
+.input-bar{
+    min-width: 100%;
+    background-color: var(--color-brand-1);
+    height: 5px;
+    margin-bottom: 50px;
+}
+
+.main-albuns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.albuns{
+    margin-bottom: 25px;
+}
+

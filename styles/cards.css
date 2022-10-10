@@ -1,0 +1,42 @@
+.albuns-section{
+    height: 260px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: var(--color-grey-7);
+    border-radius: 0px 0px 4px 4px;
+    color: var(--color-grey-1);
+}
+
+.albuns-section img{
+    max-width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.group-name-year{
+    display: flex;
+    gap: 15px;
+    margin-left: var(--margin-left-1);
+    margin-top: var(--margin-top-1);
+}
+
+.music-name{
+    margin-left: var(--margin-left-1);
+    margin-top: var(--margin-top-1);
+}
+
+.price-buy-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--margin-top-1);
+}
+
+.price{
+    margin-left: var(--margin-left-1);
+    margin-top: var(--margin-top-1);
+    font-size: var(--font-4);
+    font-weight: 600;
+}
+
+
+
